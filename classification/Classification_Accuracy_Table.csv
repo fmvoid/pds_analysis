@@ -1,0 +1,4 @@
+Feature Set,Best Parameters,Cross-validation Accuracy,LOOCV Accuracy,95% Confidence Interval,Correct Predictions,Key Feature Importance
+Unimodal,"{'C': 0.5, 'gamma': 'scale', 'kernel': 'linear'}",0.579,0.579,"[0.422, 0.736]",22 / 38,"Auditory: 0.540, Visual: 0.494, Motor: 0.241"
+Transmodal,"{'C': 0.5, 'gamma': 'scale', 'kernel': 'linear'}",0.789,0.789,"[0.660, 0.919]",30 / 38,"Salience: 0.839, FPN: 0.795, DMN: 0.282, Limbic: 0.254"
+FPN Only,"{'C': 2, 'gamma': 'scale', 'kernel': 'linear'}",0.842,0.842,"[0.726, 0.958]",32 / 38,FPN: 1.661
